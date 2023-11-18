@@ -18,5 +18,6 @@ int main () {
             default: miMenu.Default(); break;
         }
     }
+    cout << endl << "Saliendo del programa."; cin.clear(); cin.sync(); cin.ignore();
     return 0;
 }
